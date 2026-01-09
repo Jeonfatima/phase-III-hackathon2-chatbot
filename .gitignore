@@ -1,40 +1,8 @@
 # Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-env/
-venv/
-.venv/
-.ENV
-.venv/
-.ENV/
-.ENV.bak/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/modules/
-.pytest_cache/
-.hypothesis/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.DS_Store
-Thumbs.db
-
-# Distribution / packaging
+*.py[cod]
+*$py.class
+*.so
 .Python
 build/
 develop-eggs/
@@ -51,23 +19,38 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-
-# Environment
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# Testing
+MANIFEST
 .pytest_cache/
 .coverage
 htmlcov/
 .cov/
 .coverage.*
-.pytest_cache/
+.nyc_output
+.venv/
+venv/
+env/
+ENV/
+.env
+.pyre/
+.mypy_cache/
+
+# FastAPI / Uvicorn
+*.log
+logs/
+log/
+
+# Environment variables
+.env*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
 
 # OS
 .DS_Store
