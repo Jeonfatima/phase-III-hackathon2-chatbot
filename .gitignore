@@ -39,6 +39,15 @@ ENV/
 logs/
 log/
 
+# Node.js / Next.js
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # Environment variables
 .env*
 !.env.example
