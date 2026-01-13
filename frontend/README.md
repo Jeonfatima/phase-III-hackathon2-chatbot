@@ -29,8 +29,8 @@ npm install
 
 2. Create a `.env.local` file with the following environment variables:
 ```env
-NEXT_PUBLIC_BETTER_AUTH_URL=http://localhost:8000
-NEXT_PUBLIC_API_BASE_URL=http://localhost:8000
+NEXT_PUBLIC_BETTER_AUTH_URL=https://hackathon-ii-todo-giaic-q4-production.up.railway.app
+NEXT_PUBLIC_API_BASE_URL=https://hackathon-ii-todo-giaic-q4-production.up.railway.app
 ```
 
 3. Run the development server:
