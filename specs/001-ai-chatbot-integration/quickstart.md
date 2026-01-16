@@ -23,7 +23,7 @@ cp .env.example .env
 Edit the `.env` file to include:
 
 ```env
-COHERE_API_KEY=HQIfwZao5J8Vn6n6PUrMXgXdHeQDMnKeyAUT6Vo1
+COHERE_API_KEY=your-cohere-api-key
 DATABASE_URL=your_database_url_here
 BETTER_AUTH_SECRET=your_auth_secret_here
 ```
